@@ -1,0 +1,21 @@
+@media only screen
+and (max-width: 410px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen
+and (min-width: 410px) 
+and (max-width: 768px) {
+    body {
+          background-color: green;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    body {
+      background-color: blue;
+    }
+}
