@@ -17,6 +17,9 @@ and (max-width: 768px) {
           display: grid;
           grid-template-columns: 66% 33%;
         }
+    #large {
+        width: 150%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
