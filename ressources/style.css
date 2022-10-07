@@ -2,12 +2,9 @@
 and (max-width: 410px) {
     body {
         background-color: red;
-    }
-    #medium {
-        display: none;
-    }
-    #large {
-        display: none;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -16,23 +13,17 @@ and (min-width: 410px)
 and (max-width: 768px) {
     body {
           background-color: green;
+          font-size: large;
+          display: grid;
+          grid-template-columns: 66% 33%;
         }
-    #small {
-        display: none;
-    }
-    #large {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 768px) {
     body {
       background-color: blue;
-    }
-    #small {
-        display: none;
-    }
-    #medium {
-        display: none;
+      font-size: larger;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
 }
